@@ -337,17 +337,20 @@ header{
     .heroImage{
         transform: 
         scale(1.45);
-        padding-top: 5rem;
+        padding-top: 10rem;
         padding-left: 10rem;
     }
 }
 
 @media only screen and (min-width:1920px){
-    header, .heroSection{
-        margin-inline: 15vw;
-        .heroText{
-            margin-left: 0;
-        }
+    // header, .heroSection{
+    //     margin-inline: 15vw;
+    //     .heroText{
+    //         margin-left: 0;
+    //     }
+    // }
+    .heroImage{
+        transform: scale(1.25);
     }
 }
 
